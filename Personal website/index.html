@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalidas Udayakumar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/48ee20d163.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/kalilogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- nav ends -->
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hey There,<br> This is <span>Kalidas</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- header closes -->
+
+    <!-- about starts -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/KALI USER.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Kalidas and I'm a BCom Graduate.After completing my graduation back in 2018 I worked as an Internal Auditor in India's leading NBFC.After which I went to study Logistics and Supply Chain Management from CILT in 2021.Also worked as an intern in a leading warehouse for a period of two months.now I'm currently working as an Accountant in Dubai,UAE in an armored manufacturing company. I got an interest to learn coding and now i am a MERN stack Expert.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/app Interfaces</li>
+                        <li><span>Web Development</span><br> web app deveopment</li>
+                        <li><span>Mern stack </span><br>Developer</li>
+                    </ul>
+                </div>
+                <!-- duplicated tab contents -->
+                    <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - current</span><br>Base Dynamic Designs</li>
+                        <li><span>2021-2022</span><br>Warehouse excecutive</li>
+                        <li><span>2019-2020</span><br> Internal auditor</li>
+                    </ul>
+                </div>
+                <!-- duplicated tab contents -->
+                    <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Mern Stack from Brototype</li>
+                        <li><span>2018</span><br>Bcom,Taxation</li>
+                        <li><span>2020</span><br> Diploma in Logistics and Supply Chain Mgt.</li>
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service starts -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing engaging and responsive landing pages
+                        Integrating client CMS programs and data feeds into websites.Conducting website testing
+                        Liaising with back-end developers to ensure web and app logic is properly integrated</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <!-- duplicate -->
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Consult with customers to understand their goals and explain the results of the study to them.Participate in product user research and analyze user lifestyle, habits and emotions.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <!-- DUPLICATE -->
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Build and maintain web and mobile applications for our organization 
+                        Collaborate with the rest of the team to ensure applications align with organizational goals as well as customer needs</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio starts -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" >
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <p>as my first project i made a clone of netflix.check it out.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- duplicate -->
+                <div class="work">
+                    <img src="./images/work-2.png" >
+                    <div class="layer">
+                        <h3>LinkedIn clone</h3>
+                        <p>as my second project project i made a clone of linkedin.check it out.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- duplicate -->
+                <div class="work">
+                    <img src="./images/work-3.png" >
+                    <div class="layer">
+                        <h3>facebook clone</h3>
+                        <p>as my third project i made a clone of facebook.check it out.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!-- contact  -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ukalidas57@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 9746968196</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./images/Kalidas resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+<!-- copyright -->
+        <div class="copyright">
+            <p>Copyright &copy; Kalidas</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz9fv5PZlQ0uypMDC5BFi_VQXKmBXkocjpHr73HBAXBakQXRjylQROUa1jml44yas3aGw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
